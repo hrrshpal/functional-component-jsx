@@ -1,0 +1,25 @@
+.firstSpan {
+  background-color: green;
+  color: white;
+}
+
+.secondSpan {
+  background-color: #ffffff;
+  color: #008000;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.container > div {
+  text-align: center; /* Center text and other inline elements inside the div */
+}
